@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: b2bbye-deployment
+  labels:
+    app: b2bbye
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: b2bbye
+  template:
+    metadata:
+      labels:
+        app: b2bbye
+    spec:
+      containers:
+      - name: b2bbye
+        image: bye:latest
+        imagePullPolicy: Never
+        ports:
+        - containerPort: 80
