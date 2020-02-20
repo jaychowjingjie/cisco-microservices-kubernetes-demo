@@ -1,4 +1,4 @@
-# cisco_microservices_kubernetes_demo (please view in RAW format)
+# Cisco Microservices Kubernetes Demo (please view in RAW format)
 
 Demo microservices architecture with kubernetes
 
