@@ -47,8 +47,8 @@ kubectl run hello --image=hello_image --image-pull-policy=Never
 kubectl get pods
 
 6) Check for output via logs:
-kubectl logs <pod-name>
-Note: get <pod-name> from 5)
+kubectl logs {pod-name}
+Note: get {pod-name} from 5)
 
 
 To run web_server_bye via minikube:
