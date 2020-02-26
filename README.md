@@ -32,7 +32,7 @@ Why do we need Docker?
 
 To run web_server_hello via minikube:
 1) Start minikube:
-minikube start --vm-driver=vmfusion
+minikube start --vm-driver=vmwarefusion
 
 2) Set docker env:
 eval $(minikube docker-env)
@@ -53,7 +53,7 @@ Note: get {pod-name} from 5)
 
 To run web_server_bye via minikube:
 1) Start minikube:
-minikube start --vm-driver=vmfusion
+minikube start --vm-driver=vmwarefusion
 
 2) Set docker env:
 eval $(minikube docker-env)
